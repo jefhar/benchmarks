@@ -11,6 +11,10 @@ Ever write a little piece of code like this and PHPStorm tells you to use a stat
 
 #2. "Improve Performance." How much performance? It will vary from machine to machine, the environment, how many other tasks are going on at the same time, and other factors. But how much performance right now on my machine?
 
+This script checks 4 different styles of closures: with and without static, and with and without namespaces.
+
+Theoretically, according to some posting I saw somewhere some time ago, `\wordwrap()` will run slightly faster than `wordwrap` because one is already namespaced, and the other isn't. Maybe it is, maybe it isn't. Maybe it is now, maybe it isn't.
+
 Run the script in your CLI, copy the output to your favorite `python` environment, and find out. For me, right now, it's
 
 ```python
@@ -110,3 +114,5 @@ plt.show()
 
 ```
 ![My benchmarks](https://github.com/jefhar/benchmarks/blob/master/Figure_1.png?raw=true)
+
+Here's the important part: Unless you're iterating over more than (on my machine,) about 50,000 entries at a time, the time it takes to add `static` takes longer than any savings you would realize from now until the end of the universe. Unless you're working for a FAANG company or have a metric shit ton of page views.
