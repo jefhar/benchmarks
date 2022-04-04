@@ -109,3 +109,4 @@ plt.show()
 ### End
 
 ```
+![My benchmarks](https://github.com/jefhar/benchmarks/blob/master/Figure_1.png?raw=true)
