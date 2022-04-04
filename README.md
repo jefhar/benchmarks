@@ -15,7 +15,7 @@ This script checks 4 different styles of closures: with and without static, and 
 
 Theoretically, according to some posting I saw somewhere some time ago, `\wordwrap()` will run slightly faster than `wordwrap` because one is already namespaced, and the other isn't. Maybe it is, maybe it isn't. Maybe it is now, maybe it isn't.
 
-Run the script in your CLI, copy the output to your favorite `python` environment, and find out. For me, right now, it's
+Run the script in your CLI, copy the output to your favorite `python` environment, and find out. For me, right now [on my Mid 2014 MacBookPro (Retina, 15-inch, 16GB 1600 MHz DDR3, 2.5 GHz Quad-Core Intel Core i7) running in PHP 8.1.4 in the php:latest docker image], it's:
 
 ```python
 # Beginning of plot.py
