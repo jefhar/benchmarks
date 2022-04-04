@@ -1,4 +1,4 @@
-Static Functions
+##Static Closures
 
 Ever write a little piece of code like this and PHPStorm tells you to use a static closure because "This closure can be declared as static (better scoping; in some cases can improve performance)."?
 
